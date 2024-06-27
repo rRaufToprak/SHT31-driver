@@ -14,7 +14,7 @@
 #include "stm32f4xx_hal.h"
 #include "i2c.h"
 
-#define SHT31_I2C_ADDR 																	0x44<<1
+#define SHT31_I2C_ADDR 																	          0x44<<1
 
 /*------------------SHT31 Commands--------------------------*/
 #define SHT31_HIGH_ENABLED_COMMAND											0x2C06
